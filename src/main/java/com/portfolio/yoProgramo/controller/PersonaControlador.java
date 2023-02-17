@@ -20,7 +20,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("persona")//localhost:8080/experiencia
-@CrossOrigin(origins ="http://localhost:4200")
+@CrossOrigin(origins={"portfolio-valentin-frontend.web.app","http://localhost:4200"})
 public class PersonaControlador {
      @Autowired
     ImpPersonaService personaService;
